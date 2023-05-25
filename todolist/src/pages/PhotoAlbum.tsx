@@ -1,19 +1,16 @@
 import {Container, CssBaseline, Grid, ThemeProvider} from "@mui/material"
 // import Grid from "@mui/material/Unstable_Grid2"
-import theme from "./styles";
-import { CardComp } from "./components/CardComp";
-import { NavBar } from "./components/NavBar";
-import { Header } from "./components/Header";
+import theme from "../albumStyles";
+import { CardComp } from "../components/CardComp";
+import { Header } from "../components/Header";
 
-function App() {
+function PhotoAlbum() {
 
   const cards = [1, 2, 3, 4, 5, 6, 7, 8, 9];
 
   return (
     <>
       <ThemeProvider theme={theme}>
-      <CssBaseline />
-      <NavBar />
       <main>
         <div>
           <Header />
@@ -32,4 +29,4 @@ function App() {
 }
 
 
-export default App
+export default PhotoAlbum
