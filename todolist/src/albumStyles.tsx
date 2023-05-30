@@ -5,7 +5,6 @@ const theme = createTheme({
         MuiContainer: {
             styleOverrides: {
                 root: {
-                    backgroundColor: "paper",
                     paddingTop: "24px",
                     paddingBottom: "18px",
                 }

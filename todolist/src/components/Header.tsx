@@ -1,22 +1,21 @@
 import { Button, Container, Grid, Typography } from "@mui/material"
+import BasicModal from "./BasicModal"
 
 export const Header = () => {
   return (
     <Container maxWidth="sm">
         <Typography variant="h2" align="center" color="textPrimary" gutterBottom>Photo Album</Typography>
         <Typography variant="h5" align="center" color="textSecondary">
-            paragrafo longo so pra ocupar espaço mesmo tem nada pra escrever aqui sla um dois tres quartraosdf
+            paragrafo longo so pra ocupar espaço mesmo e ver como ficar a quebra de linha com um pouco mais de texto
         </Typography>
         <div>
             <Grid container spacing={2} justifyContent="center">
             <Grid item>
-                <Button variant="contained" color="primary">
-                ver fotos
-                </Button>
+                <BasicModal />
             </Grid>
             <Grid item>
                 <Button variant="contained" color="secondary">
-                outra coisa
+                nada tambem
                 </Button>
             </Grid> 
             </Grid>
